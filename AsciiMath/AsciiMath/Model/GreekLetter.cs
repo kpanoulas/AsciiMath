@@ -1,0 +1,32 @@
+﻿namespace AsciiMath.Model
+{
+    public enum GreekLetter
+    {
+        Alpha,
+        Beta,
+        Gamma,
+        Delta,
+        Epsilon,
+        EpsilonVariation,
+        Zeta,
+        Eta,
+        Theta,
+        ThetaVariation,
+        Iota,
+        Kappa,
+        Lambda,
+        Mu,
+        Nu,
+        Xi,
+        Pi,
+        Rho,
+        Sigma,
+        Tau,
+        Upsilon,
+        Phi,
+        PhiVariation,
+        Chi,
+        Psi,
+        Omega,
+    }
+}

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AsciiMath.Model
 {
-    public enum Operation
+    public enum Operator
     {
         /// <summary>
         /// Plus operator. Signifies adition in algebra

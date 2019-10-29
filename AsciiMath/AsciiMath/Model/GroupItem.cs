@@ -6,13 +6,13 @@ namespace AsciiMath.Model
 {
     public sealed class GroupItem: ExpressionItem
     {
-        internal GroupItem(Expression expression, GroupingEnclosure groupingEnclosure)
+        internal GroupItem(Expression expression, Grouping groupingEnclosure)
         {
             Expression = expression;
             GroupingEnclosure = groupingEnclosure;
         }
 
         public Expression Expression { get; }
-        public GroupingEnclosure GroupingEnclosure { get; }
+        public Grouping GroupingEnclosure { get; }
     }
 }

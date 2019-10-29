@@ -2,11 +2,11 @@
 {
     public sealed class OperatorItem : ExpressionItem
     {
-        internal OperatorItem(Operation @operator)
+        internal OperatorItem(Operator @operator)
         {
             Operator = @operator;
         }
 
-        public Operation Operator { get; }
+        public Operator Operator { get; }
     }
 }

@@ -8,12 +8,12 @@ namespace AsciiMath.Builders
     internal sealed class GroupBuilder: IGroupBuilder
     {
         private readonly IExpressionBuilderFactory expressionBuilderFactory;
-        private readonly GroupingEnclosure groupingEnclosure;
+        private readonly Grouping groupingEnclosure;
         private readonly IExpressionBuilder parent;
         public Expression Expression { get; private set; }
 
 
-        public GroupBuilder(IExpressionBuilderFactory expressionBuilderFactory, IExpressionBuilder parent, GroupingEnclosure groupingEnclosure)
+        public GroupBuilder(IExpressionBuilderFactory expressionBuilderFactory, IExpressionBuilder parent, Grouping groupingEnclosure)
         {
 
             this.expressionBuilderFactory = expressionBuilderFactory;

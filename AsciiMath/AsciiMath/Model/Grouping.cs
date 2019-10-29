@@ -1,6 +1,6 @@
 ﻿namespace AsciiMath.Model
 {
-    public enum GroupingEnclosure
+    public enum Grouping
     {
         Parentheses,
         Brackets,
